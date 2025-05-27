@@ -13,7 +13,7 @@ API = PublicApi(API_KEY)  # Crear una instancia de la API de VirusTotal con la c
 try:
     
 
-    with open("archivo.txt", "rb") as file:
+    with open("YOUR FILE", "rb") as file:
         contenido = file.read()
         file_hash = hashlib.md5(contenido).hexdigest() # Calcular el hash SHA-256 del archivo
         response = API.get_file_report(file_hash)  # Obtener el informe del archivo desde VirusTotalapi
