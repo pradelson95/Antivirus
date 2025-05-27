@@ -1,4 +1,4 @@
-API_KEY = "51326928e74ee63b4eedddd083767c81994d87e6b58ed50efbb00b7dbedf24a8"
+API_KEY = "YOUR API KEY"
 
 
 class AudioNotFoundError(Exception):
